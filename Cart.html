@@ -1,0 +1,58 @@
+<!DOCTYPEhtml>
+<html>
+  <head>
+    <link rel="stylesheet" href="STYLE2.CSS">
+    </head>
+  <svg id="toggle" class="SVG1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 64H448v64H0V64zM0 224H448v64H0V224zM448 384v64H0V384H448z"/></svg>
+    <body>
+      <div class="item-container">
+        <div class="item">
+          <img onclick="Userdetails();"src="photo.jpg" alt="image">
+           <span>Owu Soup $5</span><br><button onclick="order1();" ondblclick="remove();" id="order1">Order</button><br><p class="owu"id="paragraph1"></p>
+        </div>
+                <div class="item">
+          <img src="Image6.png" alt="image">
+          <span>Chinese Salad $5</span><br><button onclick="order2();" ondblclick="remove1();" id="order2">Order</button><br><p class="owu"id="paragraph2"></p>
+        </div>
+        
+        <div class="item">
+          <img src="Image5.png" alt="image">
+ <span>Chinese spiced $5</span><br><button onclick="order3();"ondblclick="remove2();" class="fly" id="order3">Order</button><br><p id="paragraph3"></p>
+        </div>
+        <div class="item">
+          <img src="Image4.png" alt="image">
+ <span>Sandwich $5</span><br><button onclick="order4();" class="fly"  ondblclick="remove3();"id="order4">Order</button><br><p id="paragraph4"></p>
+        </div>
+        <div class="item">
+          <img src="Banga.jpg" alt="image">
+ <span>Banga Soup $5</span><br><button onclick="order5();"ondblclick="remove4();" class="Banga"id="order5">Order</button><br><p id="paragraph5"></p>
+        </div>
+        <div class="item">
+          <img src="Image1.png" alt="image">
+ <span>Chinese $5</span><br><button onclick="order6();" class="Banga"ondblclick="remove5();"id="order6">Order</button><br><p id="paragraph6"></p>
+        </div>
+        <div class="item">
+          <img src="Image2.png" alt="image">
+ <span>Chinese $5</span><br><button onclick="order7();" class="Chinese"  ondblclick="remove6();"id="order7">Order</button><br><p id="paragraph7"></p>
+        </div>
+        <div class="item">
+          <img src="Image3.png" alt="image">
+ <span>Chinese $5</span><br><button onclick="order8();" class="Chinese"ondblclick="remove7();" id="order8">Order</button><br><p id="paragraph8"></p>
+        </div>
+        
+      </div><br><br><br>
+      <div id="checkout">
+ </div>
+      </div><br><br><br><br>
+     <div class="flex">
+          
+<a href="index.html"><svg class="SVG1"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg></a>
+  
+<a href="Pay.html"><svg class="SVG1"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M24 0C10.7 0 0 10.7 0 24S10.7 48 24 48H76.1l60.3 316.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24-10.7 24-24s-10.7-24-24-24H179.9l-9.1-48h317c14.3 0 26.9-9.5 30.8-23.3l54-192C578.3 52.3 563 32 541.8 32H122l-2.4-12.5C117.4 8.2 107.5 0 96 0H24zM176 512c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm336-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48z"/></svg></a>
+ 
+<a  href="Pay.html"><svg onclick="Price();"class="SVG1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M64 32C28.7 32 0 60.7 0 96v32H576V96c0-35.3-28.7-64-64-64H64zM576 224H0V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V224zM112 352h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H112c-8.8 0-16-7.2-16-16s7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16H368c8.8 0 16 7.2 16 16s-7.2 16-16 16H240c-8.8 0-16-7.2-16-16z"/></svg></a>
+      </div>
+      <script src="Script.js"></script>
+       <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      </body>
+  </html>
