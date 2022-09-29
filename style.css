@@ -23,6 +23,7 @@ background-origin: 100%;
 backgound-color: #928785;
   
 }
+
 h2,p{
   color: white;
   text-align: center;
@@ -77,4 +78,7 @@ span{
   color:white;
   font-size: 40px;
 }
-
+p{
+  font-size: 20px;
+  font-weight:50 ;
+}
